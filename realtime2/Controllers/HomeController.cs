@@ -51,6 +51,11 @@ namespace realtime2.Controllers
             return View(prod);
         }
 
+        public string Tong()
+        {
+            return "Hello";
+        }
+
         public IActionResult Privacy()
         {
             return View();
